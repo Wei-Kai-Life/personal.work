@@ -105,7 +105,7 @@
     right: -10%;
     overflow: hidden;
 }
-.banner-right div:nth-child(7){
+/* .banner-right div:nth-child(7){
     background-image: url(img/space1/q3.jpg);
     background-position: center;
     background-size: cover;
@@ -120,7 +120,7 @@
     bottom: 5%;
     right: -10%;
     overflow: hidden;
-}
+} */
 
 
 @keyframes banner2{
