@@ -59,7 +59,7 @@ header {
     cursor: pointer;
 }
 #burger1 {
-    background-image: url("img/section-1/burger1.png");
+    background-image: url("img/space1/burger1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,7 +73,7 @@ header {
 }
 
 #burger2 {
-    background-image: url("img/section-1/burger2.png");
+    background-image: url("img/space1/burger2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ header {
 }
 
 #burger3 {
-    background-image: url("img/section-1/burger3.png");
+    background-image: url("img/space1/burger3.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -45px;
@@ -148,17 +148,17 @@ header.act{
     /* border: 1px white solid; */
 }
 #burger1.act{
-    background-image: url("img/section-1/burger1-1.png");
+    background-image: url("img/space1/burger1-1.png");
     top: -2px;
     transition: 1s;
 }
 #burger2.act{
-    background-image: url("img/section-1/burger2-1.png");
+    background-image: url("img/space1/burger2-1.png");
     top: -1px;
     transition: 0.5s;
 }
 #burger3.act{
-    background-image: url("img/section-1/burger3-1.png");
+    background-image: url("img/space1/burger3-1.png");
     transition: 0.5s;
     top: -2px;
 }
