@@ -1,0 +1,40 @@
+.section-1 {
+    height: 70px;
+}
+
+.header-phone {
+    font-size: 28px;
+    line-height: 70px;
+    width: 180px;
+    left: calc(50% - 90px);
+    margin: 0;
+}
+
+.logo-phone {
+    height: 70px;
+    width: 50px;
+}
+.burger-phone{
+    position: relative;
+    top: 28px;
+    z-index: 9;
+    left: 80%;
+    position: fixed; 
+}
+#burger1-phone {
+    left: 14px;
+    top: -4px;
+    height: 40px;
+}
+
+#burger2-phone {
+    left: 24px;
+    top: -10px;
+    height: 40px;
+}
+
+#burger3-phone {
+    left: 34px;
+    top: -5px;
+    height: 40px;
+}

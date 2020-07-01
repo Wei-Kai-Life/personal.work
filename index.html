@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="個人專題版面.css">
+    <!-- <link rel="stylesheet" href="section-3.css"> -->
+    <!--第1部分 -->
+    <link rel="stylesheet" href="section-1&2-800px.css" media="(max-width:800px)">
+    <link rel="stylesheet" href="section-1&2-500px.css" media="(max-width:500px)">
+
+    <link rel="stylesheet" href="section-3-banner-top.css">
+    <link rel="stylesheet" href="section-3.css">
+    <link rel="stylesheet" href="section-3-1600px.css" media="(max-width:1600px)">
+    <link rel="stylesheet" href="section-3-1400px.css" media="(max-width:1400px)">
+    <link rel="stylesheet" href="section-3-1100px.css" media="(max-width:1100px)">
+    <link rel="stylesheet" href="section-3-800px.css" media="(max-width:800px)">
+    <link rel="stylesheet" href="section-3-600px.css" media="(max-width:600px)">
+    <link rel="stylesheet" href="section-3-500px.css" media="(max-width:500px)">
+    <!-- 第2部分 -->
+    <link rel="stylesheet" href="space-2- 1920px.css">
+    <link rel="stylesheet" href="space-2- 1300px.css" media="(max-width:1300px)">
+    <link rel="stylesheet" href="space-2- 1000px.css" media="(max-width:1000px)">
+    <link rel="stylesheet" href="space-2- 500px.css" media="(max-width:600px)">
+    <link rel="stylesheet" href="swiper-min.css">
+    <!-- 第3部分 -->
+    <link rel="stylesheet" href="最新消息.css">
+    <link rel="stylesheet" href="space-3.css">
+    <!-- 第4部分 -->
+    <link rel="stylesheet" href="space-4.css">
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        #big-bg {
+            background-color: rgb(222, 225, 241);
+        }
+
+        .section-8 {
+            width: 100%;
+            height: 100vh;
+            background-image: url("img/space-5/背景圖2.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .section-8 .container {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+            padding: 80px 0 0 0;
+        }
+
+        #shop-title {
+            width: 25%;
+            height: 50px;
+            margin: auto;
+            text-align: center;
+            font-size: 2.6em;
+
+        }
+
+        .shop-section {
+            width: 100%;
+            height: calc(50vh - 65px);
+            /* border: 1px red solid; */
+            display: flex;
+        }
+
+        .shop-space {
+            width: 50%;
+            height: 100%;
+            /* border: 1px blue dashed; */
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        .shop-pic {
+            width: 60%;
+            height: 70%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 0 0 40px;
+            min-width: 400px;
+            min-height: 298px;
+        }
+
+        #shop-pic1 {
+            background-image: url("img/space-5/門市.jpg");
+        }
+
+        #shop-pic2 {
+            background-image: url("img/space-5/門市2.jpg");
+        }
+
+        #shop-pic3 {
+            background-image: url("img/space-5/門市3.jpg");
+        }
+
+        .shop-info {
+            /* width: 35%; */
+            height: 30%;
+            margin: 0 0 0 25px;
+            /* border: black 1px solid; */
+        }
+
+
+        .phone-number {
+            display: flex;
+        }
+
+        .usu-time {
+            display: flex;
+        }
+
+        .holi-time {
+            display: flex;
+        }
+
+        .phone-number div:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            background-image: url("img/space-5/電話.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 10px 0 0;
+            opacity: 0.8;
+        }
+
+        .usu-time div:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            background-image: url("img/space-5/營業時間.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 10px 0 0;
+            opacity: 0.8;
+        }
+
+        .holi-time div:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            background-image: url("img/space-5/營業時間.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 10px 0 0;
+            opacity: 0.8;
+        }
+
+        @media(max-width: 1500px) {
+            .section-8 .container {
+                width: 100%;
+            }
+        }
+
+        @media(max-width: 1350px) {
+
+            .shop-info {
+                height: 40%;
+            }
+        }
+
+        @media(max-width: 1300px) {
+            .shop-pic {
+                min-width: 300px;
+                min-height: 200px;
+            }
+
+            .shop-pic {
+                margin: 0 0 0 25px;
+            }
+        }
+
+        @media(max-width: 1200px) {
+            .section-8 {
+                height: 1700px;
+            }
+
+            .section-8 .container {
+                width: 60%;
+                /* border: 1px black solid; */
+            }
+
+            #shop-title {
+                margin: 0 auto 70px auto;
+                min-width: 170px;
+            }
+
+            .shop-section-1 {
+                width: 100%;
+                height: 1000px;
+                display: block;
+            }
+
+            .shop-space {
+                width: 100%;
+                height: 50%;
+                display: block;
+            }
+
+            .shop-pic {
+                width: 440px;
+                height: 298px;
+                /* width: 400px;
+                height: 298px; */
+            }
+
+            .shop-section-2 {
+                width: 100%;
+                height: 500px;
+                display: block;
+            }
+
+            #shop-pic1 {
+                margin: 0 auto 0 auto;
+
+            }
+
+            #shop-pic2 {
+                margin: 0 auto 0 auto;
+
+            }
+
+            #shop-pic3 {
+                margin: 0 auto 0 auto;
+
+            }
+
+            .shop-info1 {
+                margin: 0 auto 0 auto;
+                text-align: center;
+            }
+            .shop-info2 {
+                margin: 0 auto 0 auto;
+                text-align: center;
+            }
+            .shop-info3 {
+                margin: 0 auto 0 auto;
+                text-align: center;
+            }
+            .address{
+                margin: 20px auto 0 auto
+            }
+            .phone-number {
+                width: 114px;
+                margin: 10px auto 0 auto;
+            }
+
+            .usu-time {
+                width: 114px;
+                margin: auto;
+            }
+
+            .holi-time {
+                width: 114px;
+                margin: auto;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section-1">
+        <div class="left-nav">
+            <div id="logo"></div>
+            <header>LUNA CAF'E</header>
+        </div>
+        <div class="burger">
+            <div id="burger1"></div>
+            <div id="burger2"></div>
+            <div id="burger3"></div>
+        </div>
+        <div class="logo-phone"></div>
+        <header class="header-phone">LUNA CAF'E</header>
+        <div class="burger-phone">
+            <div id="burger1-phone"></div>
+            <div id="burger2-phone"></div>
+            <div id="burger3-phone"></div>
+        </div>
+    </div>
+    <div id="big-bg">
+        <div class="section-2">
+            <nav>
+                <div class="home"><a href="">Home</a></div>
+                <div class="product"><a href="">商品</a></div>
+                <div class="company"><a href="">關於我們</a></div>
+                <div class="news"><a href="">最新消息</a></div>
+                <div class="shop"><a href="">門市</a></div>
+                <div class="contact"><a href="">聯絡我們</a></div>
+            </nav>
+        </div>
+        <div class="section-3">
+            <div class="banner-top">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="banner-right">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+            <div class="field">
+                <div class="arrow"></div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="container">
+                <div class="space2 space2-1">
+                    <div class="pic-box pic-box2-1"></div>
+                    <div class="text-box text-box2-1">
+                        <div class="ad-1">
+                            <div class="title1">我們的咖啡</div>
+                            <div>我們對於咖啡烘焙充滿著無比的熱情。
+                                每一款咖啡都需要不同的時間與溫度，
+                                以粹煉出完美的烘焙境界，進而為每一杯咖啡帶來獨有的香氣、
+                                酸度、體度與風味。 <br>
+                                <span class="more">了解詳情 >></span>
+                            </div>
+
+                        </div>
+                        <div></div>
+                    </div>
+
+                </div>
+                <div class="space2 space2-2">
+                    <div class="pic-box pic-box2-2">
+                        <div class="pic-1"></div>
+                        <div class="pic-2"></div>
+                    </div>
+
+                    <div class="text-box text-box2-2">
+                        <div class="ad-1">
+                            <div class="title1">冷萃咖啡</div>
+                            <div class="text">體驗全新LUNA冷翠咖啡的平逢滑順，
+                                同時蘊含巧克力和柑橘風味<br>
+                                <span class="more">了解詳情 >></span>
+                            </div>
+                        </div>
+                        <div class="ad-2">
+                            <div class="title1">經典濃縮咖啡飲品</div>
+                            <div class="text">LUNA經典濃縮咖啡獨特醇厚的口感，三發出迷人的優雅情調
+                                ，是我們最期待給你專屬貓好的咖啡饗宴<br>
+                                <span class="more">了解詳情 >></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-4-2">
+            <canvas id="MainCanvas"></canvas>
+            <section class="swiper-container0 loading">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(img/space-2/green-coffee.jpeg)">
+                        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E"
+                            class="entity-img" />
+                        <div class="content">
+                            <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Shaun Matthews
+                            </p>
+                            <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's
+                                standard
+                                dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to
+                                make a type specimen book.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/space-2/coffee-bean.jpeg)">
+                        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg"
+                            class="entity-img" />
+                        <div class="content">
+                            <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Alexis Berry
+                            </p>
+                            <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's
+                                standard
+                                dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to
+                                make a type specimen book.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s)">
+                        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s"
+                            class="entity-img" />
+                        <div class="content">
+                            <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Billie Pierce
+                            </p>
+                            <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's
+                                standard
+                                dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to
+                                make a type specimen book.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/space-2/coffee-product.jpeg)">
+                        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk"
+                            class="entity-img" />
+                        <div class="content">
+                            <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Trevor Copeland
+                            </p>
+                            <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's
+                                standard
+                                dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to
+                                make a type specimen book.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/space-2/hire.png)">
+                        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM"
+                            class="entity-img" />
+                        <div class="content">
+                            <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Bernadette
+                                Newman
+                            </p>
+                            <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's
+                                standard
+                                dummy
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                                it to
+                                make a type specimen book.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </section>
+        </div>
+
+
+        <div class="section-5">
+            <div class="computer">
+                <div class="menu-bar">
+                    <div class="menu menu-1">
+                        <div class="item item1-1 act"></div>
+                        <div class="the-icon icon1-1 act"></div>
+                    </div>
+                    <div class="menu menu-2">
+                        <div class="item item1-2"></div>
+                        <div class="the-icon icon1-2"></div>
+                    </div>
+                    <div class="menu menu-3">
+                        <div class="item item1-3"></div>
+                        <div class="the-icon icon1-3"></div>
+                    </div>
+                    <div class="menu menu-4">
+                        <div class="item item1-4"></div>
+                        <div class="the-icon icon1-4"></div>
+                    </div>
+                </div>
+                <div class="menu-title">
+                    <div>M<br>e<br>n<br>u</div>
+                </div>
+                <div class="menu-title2">
+                    <div>M e n u</div>
+                </div>
+                <div class="logo">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu-all">
+
+                    <div class="swiper-container swiper-container1 act">
+                        <div class="swiper-wrapper swiper-wrapper1">
+                            <div class="swiper-slide swiper-slide1">
+                                <div>
+                                    <div></div>
+                                    <div>卡布奇諾</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>拿鐵</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>義式濃縮</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>焦糖瑪奇朵</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰美式</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>熱美式</div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide swiper-slide1-2">
+                                <div>
+                                    <div></div>
+                                    <div>熱摩卡</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰摩卡</div>
+                                </div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+
+                    <div class="swiper-container swiper-container2">
+                        <div class="swiper-wrapper swiper-wrapper2">
+                            <div class="swiper-slide swiper-slide2">
+                                <div>
+                                    <div></div>
+                                    <div>抹茶那堤</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰紅茶</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰可可</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰抹茶那堤</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>冰奶茶</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>暖心熱可可</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide2-2">
+                                <div>
+                                    <div></div>
+                                    <div>熱紅茶</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>熱奶茶</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+
+                    <div class="swiper-container swiper-container3">
+                        <div class="swiper-wrapper swiper-wrapper3">
+                            <div class="swiper-slide swiper-slide3">
+                                <div>
+                                    <div></div>
+                                    <div>度籃球</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>海鹽奶油捲</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>長棍麵包</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>花生蜂糖軟法</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>沙拉蛋吐司</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>甜心波羅可頌</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide3-2">
+                                <div>
+                                    <div></div>
+                                    <div>火腿起司貝果</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>果乾核桃麵包</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+
+                    <div class="swiper-container swiper-container4">
+                        <div class="swiper-wrapper swiper-wrapper4">
+                            <div class="swiper-slide swiper-slide4">
+                                <div>
+                                    <div></div>
+                                    <div>巧克力千層</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>義式提拉米蘇</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>舒芙蕾鬆餅</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>經典千層</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>草莓蛋糕</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>櫻花雙層奶酪</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide4-2">
+                                <div>
+                                    <div></div>
+                                    <div>抹茶起司蛋糕</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>香橙檸檬塔</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-6">
+            <div class="menu-bar-phone">
+                <div class="the-menu">M e n u</div>
+                <div class="menu-burger">
+                    <div class="book">
+                        <div class="back-pg"></div>
+                        <div class="page6"></div>
+                        <div class="page5"></div>
+                        <div class="page4"></div>
+                        <div class="page3"></div>
+                        <div class="page2"></div>
+                        <div class="page1"></div>
+                        <div class="front-pg">
+                            <p class="title margin">LUNA MENU</p>
+                            <p class="author-by">open it</p>
+                            <div class="book-wrap"></div>
+                        </div>
+                        <div class="book-edge">
+                            <p class="title edge">xxxxx</p>
+                            <p class="author-edge"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <div id="coffee-btn" class="items-phone phone-tab act"></div>
+                    <div id="drink-btn" class="items-phone phone-tab"></div>
+                    <div id="bread-btn" class="items-phone phone-tab "></div>
+                    <div id="dessert-btn" class="items-phone phone-tab"></div>
+                </div>
+            </div>
+
+            <div class="menus-phone coffee-all act">
+                <div>
+                    <div></div>
+                    <div>卡布奇諾</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>拿鐵</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>義式濃縮</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>焦糖瑪奇朵</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>冰美式</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>熱美式</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>熱摩卡</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>冰摩卡</div>
+                </div>
+            </div>
+            <div class="menus-phone drink-all">
+                <div>
+                    <div></div>
+                    <div>冰紅茶</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>冰奶茶</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>抹茶那堤</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>冰抹茶那堤</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>冰可可</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>暖心熱可可</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>熱紅茶</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>熱奶茶</div>
+                </div>
+            </div>
+            <div class="menus-phone bread-all">
+                <div>
+                    <div></div>
+                    <div>起司火腿貝果</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>海鹽奶油捲</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>長棍麵包</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>花生蜂糖軟法</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>沙拉蛋吐司</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>甜心波羅可頌</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>度籃球</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>果乾核桃麵包</div>
+                </div>
+            </div>
+            <div class="menus-phone dessert-all">
+                <div>
+                    <div></div>
+                    <div>巧克力千層</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>義式提拉米蘇</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>舒芙蕾鬆餅</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>經典千層</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>草莓蛋糕</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>櫻花雙層奶酪</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>抹茶起司蛋糕</div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>香橙檸檬塔</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bg-section-7">
+        <div class="section-7">
+            <div class="container">
+                <div class="introduce-box introduce-box1">
+                    <div class="introduce-pic"></div>
+                    <div class="introduce-txt">
+                        <div id="thetitle1">[LUNA]是衣索比亞語[豆]的意思</div>
+                        <div id="thecontent1">至今衣索比亞家庭都還維持著傳統的社交方式
+                            用[咖啡]來凝聚家人、朋友的情感
+                            從炒焙、研磨到烹煮，
+                            長達3個小時繁複的工序都象徵莊重的儀式感
+                            第一杯 Abol 說著祝福
+                            第二杯 Tona 話語家常
+                            第三杯 Beraka 分享喜悅
+                            <br><br>
+                            我們愛上這種悠閒、純真的生活方式，
+                            順著衣索比亞語命名為[LUNA]
+                            <br>
+                            希望能將這熱情的待客精神傳承下去。</div>
+                    </div>
+                </div>
+                <div class="introduce-box introduce-box2">
+                    <div class="introduce-pic"></div>
+                    <div class="introduce-txt">
+                        <div id="thetitle2">Logo概念</div>
+                        <div id="thecontent2">
+                            以北美具代表性的馴鹿作為***咖啡館logo，其概念發想主要是想做出咖啡的
+                            另一種面貌。在中高緯度的地區由於天氣寒冷，不適合種植咖啡豆，但假若在
+                            天氣寒冷的地方，能配上一杯溫暖的咖啡暖暖心腸，將會是人間上的一大福音。
+                            麋鹿不畏寒冬、勇往直前的特性，給予了我們迷人的色彩，就有如魔法一般。
+                        </div>
+                    </div>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section-8">
+        <div class="container">
+            <div id="shop-title">門市據點</div>
+            <div class="shop-section shop-section-1">
+                <div class="shop-space">
+                    <div class="shop-pic" id="shop-pic1"></div>
+                    <div class="shop-info shop-info1">
+                        <div class="address">台中美村店<br>
+                            台中市西區美村路一段98號 </div>
+                        <div class="phone-number">
+                            <div></div>
+                            <div>04-5874632 </div>
+                        </div>
+                        <div class="usu-time">
+                            <div></div>
+                            <div>10:00-20:00</div>
+                        </div>
+                        <div class="holi-time">
+                            <div></div>
+                            <div>10:00-21:00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-space">
+                    <div class="shop-pic" id="shop-pic2"></div>
+                    <div class="shop-info shop-info2">
+                        <div class="address">台中崇德店<br>
+                            台中市西區崇德路二段號 </div>
+                        <div class="phone-number">
+                            <div></div>
+                            <div>04-5875501</div>
+                        </div>
+                        <div class="usu-time">
+                            <div></div>
+                            <div>10:00-20:00</div>
+                        </div>
+                        <div class="holi-time">
+                            <div></div>
+                            <div>10:00-21:00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-section shop-section-2">
+                <div class="shop-space">
+                    <div class="shop-pic" id="shop-pic3"></div>
+                    <div class="shop-info shop-info3">
+                        <div class="address">
+                            <div></div>
+                            台中大墩大墩店<br>
+                            台中市西區大墩路一段66號
+                        </div>
+                        <div class="phone-number">
+                            <div></div>
+                            <div>04-5847851</div>
+                        </div>
+                        <div class="usu-time">
+                            <div></div>
+                            <div>10:00-20:00</div>
+                        </div>
+                        <div class="holi-time">
+                            <div></div>
+                            <div>10:00-21:00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="個人專題版面.js"></script>
+    <!-- Swiper JS -->
+    <script src="swiper-min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script>
+        window.onresize = function () {
+            if (window.innerWidth <= 1100) {
+                window.location.reload(" http://127.0.0.1:5500/%E5%B0%88%E9%A1%8C-LUNA%E5%92%96%E5%95%A1(%E5%85%A8).html ")
+            } else {
+                window.location.reload(" http://127.0.0.1:5501/%E5%B0%88%E9%A1%8C-LUNA%E5%92%96%E5%95%A1(%E5%85%A8).html ")
+            }
+        }
+        window.addEventListener("scroll", () => {
+            var picture_1 = document.querySelector(".pic-box2-1")
+            var picture_2 = document.querySelector(".pic-1")
+            var picture_3 = document.querySelector(".pic-2")
+            var scrolled = window.scrollY
+            if (scrolled >= 400) {
+                picture_1.classList.add("move")
+                picture_2.classList.add("move")
+                picture_3.classList.add("move")
+            } else {
+                picture_1.classList.remove("move")
+                picture_2.classList.remove("move")
+                picture_3.classList.remove("move")
+            }
+        })
+
+        window.addEventListener("scroll", () => {
+            var burger_1 = document.querySelector("#burger1")
+            var burger_2 = document.querySelector("#burger2")
+            var burger_3 = document.querySelector("#burger3")
+            var burger_phone1 = document.querySelector("#burger1-phone")
+            var burger_phone2 = document.querySelector("#burger2-phone")
+            var burger_phone3 = document.querySelector("#burger3-phone")
+            var scrolled = window.scrollY
+            if (scrolled >= 2250) {
+                burger_1.classList.remove("white")
+                burger_2.classList.remove("white")
+                burger_3.classList.remove("white")
+                burger_phone1.classList.remove("white")
+                burger_phone2.classList.remove("white")
+                burger_phone3.classList.remove("white")
+            } else if (scrolled >= 1150) {
+                burger_1.classList.add("white")
+                burger_2.classList.add("white")
+                burger_3.classList.add("white")
+                burger_phone1.classList.add("white")
+                burger_phone2.classList.add("white")
+                burger_phone3.classList.add("white")
+            } else {
+                burger_1.classList.remove("white")
+                burger_2.classList.remove("white")
+                burger_3.classList.remove("white")
+                burger_phone1.classList.remove("white")
+                burger_phone2.classList.remove("white")
+                burger_phone3.classList.remove("white")
+            }
+        })
+
+
+
+        //菜單選擇切換
+        // var item_1 = document.querySelector(".item1-1")
+        // var item_2 = document.querySelector(".item1-2")
+        // var item_3 = document.querySelector(".item1-3")
+        // var item_4 = document.querySelector(".item1-4")
+        // var icon_1 = document.querySelector(".icon1-1")
+        // var icon_2 = document.querySelector(".icon1-2")
+        // var icon_3 = document.querySelector(".icon1-3")
+        // var icon_4 = document.querySelector(".icon1-4")
+
+        // var coffee_box = document.querySelector("menu-1")
+        // var drink_box = document.querySelector("menu-2")
+        // var bread_box = document.querySelector("menu-3")
+        // var dessert_box = document.querySelector("menu-4")
+
+        // var swiper_1 = document.querySelector(".swiper-container1")
+        // var swiper_2 = document.querySelector(".swiper-container2")
+        // var swiper_3 = document.querySelector(".swiper-container3")
+        // var swiper_4 = document.querySelector(".swiper-container4")
+        // var wrapper_1 = document.querySelector(".swiper-wrapper1")
+
+
+        var sliderSelector = '.swiper-container0',
+            options = {
+                init: false,
+                loop: true,
+                speed: 500,
+                slidesPerView: 2, // or 'auto'
+                // spaceBetween: 10,
+                centeredSlides: true,
+                effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+                coverflowEffect: {
+                    rotate: 50, // Slide rotate in degrees
+                    stretch: 0, // Stretch space between slides (in px)
+                    depth: 100, // Depth offset in px (slides translate in Z axis)
+                    modifier: 1, // Effect multipler
+                    slideShadows: true, // Enables slides shadows
+                },
+                grabCursor: true,
+                parallax: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    2500: {
+                        slidesPerView: 1,
+                        spaceBetween: 0
+                    }
+                },
+                // Events
+                on: {
+                    imagesReady: function () {
+                        this.el.classList.remove('loading');
+                    }
+                }
+            };
+        var mySwiper1 = new Swiper(sliderSelector, options);
+
+        // Initialize slider
+        mySwiper1.init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var myswiper = new Swiper('.swiper-container', {
+
+
+            slidesPerView: 2,
+            centeredSlides: true,
+            effect: 'coverflow',
+
+            breakpoints: {
+                2500: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                }
+            },
+
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+        var menus = document.querySelectorAll(".menu")
+        var items = document.querySelectorAll(".item")
+        var icons = document.querySelectorAll(".the-icon")
+        var swipers = document.querySelectorAll(".swiper-container")
+
+
+        for (let index = 0; index < menus.length; index++) {
+
+            const menu = menus[index];
+            const swiper = swipers[index];
+            const item = items[index];
+            const icon = icons[index];
+            menu.onclick = function () {
+                clearAllActive()
+                item.classList.add("act")
+                icon.classList.add("act")
+                swiper.classList.add('act')
+                myswiper[index].update()
+            }
+        }
+
+        function clearAllActive() {
+            for (let index = 0; index < menus.length; index++) {
+                const menu = menus[index];
+                const swiper = swipers[index];
+                const item = items[index];
+                const icon = icons[index];
+                item.classList.remove("act")
+                icon.classList.remove("act")
+                swiper.classList.remove("act")
+            }
+        }
+
+
+        //book書本打開
+        //book書本打開
+        var coffee_all = document.querySelector("#coffee-btn")
+        var drink_all = document.querySelector("#drink-btn")
+        var bread_all = document.querySelector("#bread-btn")
+        var dessert_all = document.querySelector("#dessert-btn")
+        var bg_menu = document.querySelector(".menu-bar-phone")
+
+        var front_pg = document.querySelector(".front-pg")
+        var book = document.querySelector(".book")
+        var page1 = document.querySelector(".page1")
+        var page2 = document.querySelector(".page2")
+        var page3 = document.querySelector(".page3")
+        var page4 = document.querySelector(".page4")
+        var page5 = document.querySelector(".page5")
+        var page6 = document.querySelector(".page6")
+        book.onclick = function () {
+            if (page1.classList.contains("act")) {
+                bg_menu.classList.remove("act")
+                page1.classList.remove("act")
+                page2.classList.remove("act")
+                page3.classList.remove("act")
+                page4.classList.remove("act")
+                page5.classList.remove("act")
+                page6.classList.remove("act")
+                front_pg.classList.remove("act")
+                coffee_all.classList.remove("show")
+                drink_all.classList.remove("show")
+                bread_all.classList.remove("show")
+                dessert_all.classList.remove("show")
+            } else {
+                bg_menu.classList.add("act")
+                page1.classList.add("act")
+                page2.classList.add("act")
+                page3.classList.add("act")
+                page4.classList.add("act")
+                page5.classList.add("act")
+                page6.classList.add("act")
+                front_pg.classList.add("act")
+                coffee_all.classList.add("show")
+                drink_all.classList.add("show")
+                bread_all.classList.add("show")
+                dessert_all.classList.add("show")
+            }
+        }
+
+        //手機板Menu菜單切換
+        //手機板Menu菜單切換
+        var menus_phone = document.querySelectorAll(".menus-phone")
+        var items_phone = document.querySelectorAll(".items-phone")
+
+
+        for (let index = 0; index < items_phone.length; index++) {
+
+            const menu_phone = menus_phone[index];
+            const item_phone = items_phone[index];
+
+            item_phone.onclick = function () {
+                clearAllActive1()
+                menu_phone.classList.add("act")
+                item_phone.classList.add('act')
+            }
+        }
+
+        function clearAllActive1() {
+            for (let index = 0; index < items_phone.length; index++) {
+                const menu_phone = menus_phone[index];
+                const item_phone = items_phone[index];
+                menu_phone.classList.remove("act")
+                item_phone.classList.remove('act')
+            }
+        }
+
+        // 最新消息字體
+        let cover = [];
+        const cwidth = 840;
+        const cheight = 420;
+
+        const c = document.getElementById("MainCanvas");
+        c.width = cwidth;
+        c.height = cheight;
+
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(0, 0, cwidth, cheight);
+
+        window.onload = function () {
+            drawCover();
+            Run();
+        }
+
+        let coverCount = 0;
+        function drawCover() {
+
+            const tempc = document.createElement("CANVAS");
+            tempc.width = 840;
+            tempc.height = 420;
+            const tctx = tempc.getContext("2d");
+
+            tctx.textAlign = "center";
+            tctx.fillStyle = "blue";
+
+            tctx.font = "100px Lobster";
+            tctx.fillText("  最 新 消 息  ", 450, 250);
+
+
+
+            cover = tctx.getImageData(0, 0, 840, 420).data;
+
+            coverCount++
+            if (coverCount < 2) {
+                setTimeout(function () { drawCover(); }, 1000);
+            }
+        }
+
+        let bubbles = [];
+        let bgc = 0;
+        let lastRun = 0;
+        let dt;
+
+        function Run() {
+
+            if (lastRun == 0) { dt = 1; }
+            else { dt = Math.min(50, (performance.now() - lastRun)); }
+            lastRun = performance.now();
+
+            if (bubbles.length < 8) {
+                if ((bubbles.length == 0) || (bubbles[bubbles.length - 1][3] > 5)) {
+                    bubbles.push([0, 0, 0, 100])
+                }
+            }
+
+            bubbles.forEach(function (bubble) {
+
+                if (bubble[3] < 100) {
+
+                    bubble[3] = bubble[3] + (dt / 30);
+
+                    ctx.beginPath();
+                    ctx.arc(bubble[0], bubble[1], bubble[3], 0, 2 * Math.PI);
+
+                    let a = ((20 - Math.abs(20 - (30 - Math.abs(20 - (Math.abs(50 - bubble[3])))))) * 0.05);
+
+                    ctx.strokeStyle = "rgba(" + bubble[2] + "," + a + ")"
+                    ctx.stroke();
+
+                } else {
+                    bubble[0] = 100 + (Math.floor(Math.random() * (cwidth - 200)));
+                    bubble[1] = 100 + (Math.floor(Math.random() * (cheight - 200)));
+                    bubble[2] = (
+                        (10 + Math.floor(Math.random() * 50)) + ',' +
+                        (10 + Math.floor(Math.random() * 150)) + ',' +
+                        (50 + Math.floor(Math.random() * 100)));
+                    bubble[3] = (0);
+                }
+            });
+
+            let imgData = ctx.getImageData(0, 0, 840, 420);
+            let cd = dt / 4;
+            let fd = ((cover.length < 10) ? cd : (dt / 32));
+            let Data = imgData.data;
+
+            for (let i = 0; i < Data.length; i += 4) {
+                Data[i + 0] = Data[i + 0] - ((cover[i + 3] < 127) ? cd : fd);
+                Data[i + 1] = Data[i + 1] - ((cover[i + 3] < 127) ? cd : fd);
+                Data[i + 2] = Data[i + 2] - ((cover[i + 3] < 127) ? cd : fd);
+            }
+
+            ctx.putImageData(imgData, 0, 0);
+            requestAnimationFrame(Run);
+        }
+
+    </script>
+</body>
+
+</html>
