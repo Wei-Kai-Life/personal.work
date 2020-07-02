@@ -29,6 +29,7 @@
             align-items: center;
             border-radius: 5% 0 0 5%;
             margin: 30px 0 70px 0;
+            position: relative;
         }
         .section-4-2 .swiper-container0 {
             overflow: hidden;

@@ -266,6 +266,17 @@
             }
 
         }
+
+
+        #latest-news{
+          color: rgb(255, 255, 255,0.6);
+          width: 180px;
+          height: 80px;
+          font-size: 36px;
+          position: absolute;
+          margin: auto;
+          top: 10%;
+        }
     </style>
 </head>
 
@@ -364,10 +375,11 @@
                 </div>
             </div>
         </div>
-
+       
 
         <div class="section-4-2">
             <canvas id="MainCanvas"></canvas>
+            <div id="latest-news">最 新 消 息</div>
             <section class="swiper-container0 loading">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" style="background-image:url(img/space-2/green-coffee.jpeg)">
@@ -1311,7 +1323,7 @@
             tctx.fillStyle = "blue";
 
             tctx.font = "100px Lobster";
-            tctx.fillText("  最 新 消 息  ", 450, 250);
+            tctx.fillText("   ", 450, 250);
 
 
 
