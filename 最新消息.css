@@ -10,6 +10,7 @@
             margin: 0 auto;
             width: 420px;
             height: 210px;
+            opacity: 0;
           }
         /* 最新消息字體 */
         *,
