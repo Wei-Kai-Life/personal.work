@@ -59,7 +59,7 @@ header {
     cursor: pointer;
 }
 #burger1 {
-    background-image: url("img/space1/burger1.png");
+    background-image: url("./img/space1/burger1.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,7 +73,7 @@ header {
 }
 
 #burger2 {
-    background-image: url("img/space1/burger2.png");
+    background-image: url("./img/space1/burger2.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ header {
 }
 
 #burger3 {
-    background-image: url("img/space1/burger3.png");
+    background-image: url("./img/space1/burger3.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -45px;
