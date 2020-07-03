@@ -70,6 +70,9 @@
             /* border: 1px red solid; */
             display: flex;
         }
+        .shop-section-2{
+            margin: 70px 0 0 0;
+        }
 
         .shop-space {
             width: 50%;
@@ -218,6 +221,7 @@
                 width: 100%;
                 height: 500px;
                 display: block;
+               
             }
 
             #shop-pic1 {
@@ -314,16 +318,155 @@
             top: 10%;
         }
 
-        .footer{
+
+        /* section-9section-9section-9section-9section-9section-9 */
+        .section-9 {
             width: 100%;
-            height: 130px;
-            background-color: rgb(201, 173, 173);
-            border-top: 1px black solid;
-            text-align: center;
-            line-height: 130px;
-            font-size: 24px;
-            font-weight: bold;
+            height: 900px;
+            background-image: url("img/space-5/背景圖2.png");
+            background-position: center;
+            background-size: cover;
         }
+
+        .section-9 .container {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            /* border: 1px solid red; */
+        }
+
+        .contact-section {
+            width: 80%;
+            height: 40%;
+            /* border: 1px blueviolet solid; */
+            display: flex;
+            padding-top: 250px;
+        }
+
+        .contact-section div {
+            width: 30%;
+            height: 100px;
+            background-color: #A7B1B1;
+            margin: auto;
+            text-align: center;
+            line-height: 90px;
+            font-size: 32px;
+        }
+
+        .contact-section div a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .contact-section div h5 {
+            width: clac(30% - 10px);
+            height: 90px;
+            border: 2px gray solid;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+
+        .info-section {
+            width: 80%;
+            height: 55%;
+            /* border: 1PX black solid; */
+            padding-top: 100px;
+        }
+
+        .info-section #logo-end {
+            width: 250px;
+            height: 250px;
+            background-image: url("./img/space-4/mylogo.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: auto;
+        }
+
+        .info-section .info-box {
+            width: 350px;
+            height: 100px;
+            /* border: 1px green solid; */
+            text-align: center;
+            margin: 30px auto 0 auto
+        }
+
+        .info-section .info-box h5 {
+            font-size: 36px;
+            font-weight: lighter;
+        }
+
+        .info-section .info-box div pre {
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        footer{
+            width: 100%;
+            height: 80px;
+            background-color: black;
+            text-align: center;
+        }
+        footer pre {
+            color: white;
+            line-height: 80px;
+            font-size: 16px;
+        }
+        @media(max-width: 1200px){
+            .section-9{
+                height: 1100px
+            }
+            .contact-section {
+                display: block;
+                padding-top: 0px;
+            }
+            .contact-section div{
+                width: 300px;
+                margin: 70px auto 70px auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .contact-section div h5{
+                box-sizing: unset;
+                width: 290px;
+               margin: 0;
+            }
+            .info-section{
+                height: 60%;
+            }
+            .info-section #logo-end{
+                margin: 100px auto 0 auto;
+            }
+        }
+        @media(max-width: 500px){
+            .section-9 .container{
+                width: 100%;
+            }
+            .contact-section{
+                width: 100%;
+            }
+            .info-section{
+                width: 100%;
+            }
+        }
+        @media(max-width: 400px){
+            .info-section .info-box{
+                width: 300px;
+            }
+            .info-section .info-box div pre{
+                font-size: 14px;
+
+            }
+            footer pre{
+                font-size: 14px;
+            }
+        }
+        
     </style>
 </head>
 
@@ -1062,6 +1205,33 @@
             </div>
         </div>
     </div>
+    <div class="section-9">
+        <div class="container">
+            <div class="contact-section">
+                <div><a onclick="sorry1()">
+                        <h5>線上課服</h5>
+                    </a></div>
+                <div><a onclick="sorry2()">
+                        <h5>人才招募</h5>
+                    </a></div>
+                <div><a onclick="sorry3()">
+                        <h5>立即加盟</h5>
+                    </a></div>
+            </div>
+            <div class="info-section">
+                <div id="logo-end"></div>
+                <div class="info-box">
+                    <h5>LONA COFE</h5><br>
+                    <div>
+                        <pre>Djoso963@gmail.com   西區美村路一段29號</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <pre>coprright© 2020   一切資源僅供教學使用</pre>
+    </footer>
     <!-- <div class="section-9">
         <div class="container">
             <div></div>
@@ -1069,7 +1239,7 @@
             <div></div>
         </div>
     </div> -->
-    <footer class="footer">此為網頁範例，僅供教學參考</footer>
+    
     <script src="個人專題版面.js"></script>
     <!-- Swiper JS -->
     <script src="swiper-min.js"></script>
