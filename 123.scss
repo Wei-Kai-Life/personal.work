@@ -1,0 +1,15 @@
+.section1{
+    width: 100%;
+    height: 100vh;
+    .container{
+        width: 80%;
+        height: 80vh;
+        background-color: blue;
+        .box{
+            background-color: brown;
+        }
+        .box.act{
+            background-color: burlywood;
+        }
+    }
+}

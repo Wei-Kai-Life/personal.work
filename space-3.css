@@ -2998,19 +2998,23 @@ align-items: center; */
 
 
     #coffee-btn.act {
-        background-color: rgb(0, 128, 128, 0.6);
+        background-color: rgb(0, 128, 128);
+        opacity: 0.7;
     }
 
     #drink-btn.act {
-        background-color: rgb(0, 128, 128, 0.6);
+        background-color: rgb(0, 128, 128);
+        opacity: 0.7;
     }
 
     #bread-btn.act {
-        background-color: rgb(0, 128, 128, 0.6);
+        background-color: rgb(0, 128, 128);
+        opacity: 0.7;
     }
 
     #dessert-btn.act {
-        background-color: rgb(0, 128, 128, 0.6);
+        background-color: rgb(0, 128, 128);
+        opacity: 0.7;
     }
 
     /* book */
