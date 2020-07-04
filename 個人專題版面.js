@@ -1,5 +1,6 @@
 
         var burger = document.querySelector(".burger")
+        var section1 = document.querySelector(".section-1")
         var section2 = document.querySelector(".section-2")
         var section4 = document.querySelector(".section-4")
         var section4_2 = document.querySelector(".section-4-2")
@@ -10,6 +11,8 @@
         var section9 = document.querySelector(".section-9")
         var footer = document.querySelector("footer")
         
+        
+
 
         var header=document.querySelector("header")
         var burger1=document.querySelector("#burger1")
@@ -69,7 +72,35 @@
                 nav.classList.add("act")
             }
         }
-
+        // section1.onclick=function(){
+        //     if (section2.classList.contains("act")) {
+        //         section2.classList.remove("act")
+        //         header.classList.remove("act")
+        //         burger.classList.remove("act")
+        //         burger1.classList.remove("act")
+        //         burger2.classList.remove("act")
+        //         burger3.classList.remove("act")
+        //         nav.classList.remove("act")
+        //         header_800.classList.remove("act")
+        //         burger_800.classList.remove("act")
+        //         burger1_800.classList.remove("act")
+        //         burger2_800.classList.remove("act")
+        //         burger3_800.classList.remove("act")
+        //     } else {
+        //         section2.classList.remove("act")
+        //         header.classList.remove("act")
+        //         burger.classList.remove("act")
+        //         burger1.classList.remove("act")
+        //         burger2.classList.remove("act")
+        //         burger3.classList.remove("act")
+        //         nav.classList.remove("act")
+        //         header_800.classList.remove("act")
+        //         burger_800.classList.remove("act")
+        //         burger1_800.classList.remove("act")
+        //         burger2_800.classList.remove("act")
+        //         burger3_800.classList.remove("act")
+        //     }
+        //    }
 
        section3.onclick=function(){
         if (section2.classList.contains("act")) {

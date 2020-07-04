@@ -116,7 +116,9 @@ header {
     z-index: 2;
     position: fixed;
 }
-
+.company-1{
+    display: none;
+}
 
 nav {
     display: flex;

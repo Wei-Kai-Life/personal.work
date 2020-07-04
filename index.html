@@ -46,8 +46,13 @@
             background-image: url("img/space-5/背景圖2.png");
             background-position: center;
             background-size: cover;
+            position: relative;
         }
-
+        #s5{
+            position: absolute;
+            top: 50px;
+            transition: 1s;
+        }
         .section-8 .container {
             width: 90%;
             height: 100%;
@@ -289,6 +294,7 @@
         }
 
         @media(max-width: 500px) {
+           
             #shop-pic1 {
                 min-width: 300px;
                 min-height: 223px;
@@ -328,8 +334,13 @@
             background-image: url("img/space-5/背景圖2.png");
             background-position: center;
             background-size: cover;
+            position: relative;
         }
-
+        #s6{
+            position: absolute;
+            top: 100px;
+            transition: 1s;
+        }
         .section-9 .container {
             width: 90%;
             height: 100%;
@@ -422,6 +433,9 @@
             .section-9{
                 height: 1100px
             }
+            #s6{
+                top: -30px;
+            }
             .contact-section {
                 display: block;
                 padding-top: 0px;
@@ -446,6 +460,9 @@
             }
         }
         @media(max-width: 500px){
+            #s6{
+                top: -30px;
+            }
             .section-9 .container{
                 width: 100%;
             }
@@ -473,6 +490,7 @@
 </head>
 
 <body>
+    <div id="s1"></div>
     <div class="section-1">
         <div class="left-nav">
             <div id="logo"></div>
@@ -494,12 +512,13 @@
     <div id="big-bg">
         <div class="section-2">
             <nav>
-                <div class="home"><a href="">Home</a></div>
-                <div class="product"><a href="">商品</a></div>
-                <div class="company"><a href="">關於我們</a></div>
-                <div class="news"><a href="">最新消息</a></div>
-                <div class="shop"><a href="">門市</a></div>
-                <div class="contact"><a href="">聯絡我們</a></div>
+                <div class="home"><a href="#s1">Home</a></div>
+                <div class="product"><a href="#s2">最新消息</a></div>
+                <div class="company"><a href="#s3">商品</a></div>
+                <div class="company-1"><a href="#s3-1">商品</a></div>
+                <div class="news"><a href="#s4">關於我們</a></div>
+                <div class="shop"><a href="#s5">門市</a></div>
+                <div class="contact"><a href="#s6">聯絡我們</a></div>
             </nav>
         </div>
         <div class="section-3">
@@ -568,8 +587,9 @@
             </div>
         </div>
 
-
+       
         <div class="section-4-2">
+            <div id="s2"></div>
             <canvas id="MainCanvas"></canvas>
             <div id="latest-news">最 新 消 息</div>
             <section class="swiper-container0 loading">
@@ -658,6 +678,7 @@
 
 
         <div class="section-5">
+            <div id="s3"></div>
             <div class="computer">
                 <div class="menu-bar">
                     <div class="menu menu-1">
@@ -933,6 +954,7 @@
             </div>
         </div>
         <div class="section-6">
+            <div id="s3-1"></div>
             <div class="menu-bar-phone">
                 <div class="the-menu">M e n u</div>
                 <div class="menu-burger">
@@ -1102,6 +1124,7 @@
         </div>
     </div>
     <div id="bg-section-7">
+        <div id="s4"></div>
         <div class="section-7">
             <div class="container">
                 <div class="introduce-box introduce-box1">
@@ -1139,6 +1162,7 @@
         </div>
     </div>
     <div class="section-8">
+        <div id="s5"></div>
         <div class="container">
             <div id="shop-title">門市據點</div>
             <div class="shop-section shop-section-1">
@@ -1208,6 +1232,7 @@
         </div>
     </div>
     <div class="section-9">
+        <div id="s6"></div>
         <div class="container">
             <div class="contact-section">
                 <div><a onclick="sorry1()">
@@ -1617,7 +1642,15 @@
             ctx.putImageData(imgData, 0, 0);
             requestAnimationFrame(Run);
         }
-
+        function sorry1(){
+            alert("本店於八月開幕，請敬請期待^^")
+        }
+        function sorry2(){
+            alert("本店於八月開幕，台中人的你千萬別錯過!")
+        }
+        function sorry3(){
+            alert("本店於八月開幕，期待你我的相遇~")
+        }
     </script>
 </body>
 

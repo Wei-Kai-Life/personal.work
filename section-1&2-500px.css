@@ -1,7 +1,9 @@
 .section-1 {
     height: 70px;
 }
-
+nav>div:nth-child(1) {
+    margin: 70px 0 0 0;
+}
 .header-phone {
     font-size: 28px;
     line-height: 70px;
@@ -9,7 +11,12 @@
     left: calc(50% - 90px);
     margin: 0;
 }
-
+.company{
+    display: none;
+}
+.company-1{
+    display: block;
+}
 .logo-phone {
     height: 70px;
     width: 50px;
