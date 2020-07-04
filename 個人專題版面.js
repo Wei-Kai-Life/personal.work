@@ -7,7 +7,8 @@
         var section6 = document.querySelector(".section-6")
         var section7 = document.querySelector(".section-7")
         var section8 = document.querySelector(".section-8")
-        var footer = document.querySelector(".footer")
+        var section9 = document.querySelector(".section-9")
+        var footer = document.querySelector("footer")
         
 
         var header=document.querySelector("header")
@@ -79,6 +80,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+            header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -87,6 +93,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+            header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section4.onclick=function(){
@@ -98,6 +109,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -106,6 +122,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section4_2.onclick=function(){
@@ -117,6 +138,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -125,6 +151,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section5.onclick=function(){
@@ -136,6 +167,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -144,6 +180,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section6.onclick=function(){
@@ -155,6 +196,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -163,6 +209,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section7.onclick=function(){
@@ -174,6 +225,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -182,6 +238,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        section8.onclick=function(){
@@ -193,6 +254,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -201,6 +267,40 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
+        }
+       }
+       section9.onclick=function(){
+        if (section2.classList.contains("act")) {
+            section2.classList.remove("act")
+            header.classList.remove("act")
+            burger.classList.remove("act")
+            burger1.classList.remove("act")
+            burger2.classList.remove("act")
+            burger3.classList.remove("act")
+            nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
+        } else {
+            section2.classList.remove("act")
+            header.classList.remove("act")
+            burger.classList.remove("act")
+            burger1.classList.remove("act")
+            burger2.classList.remove("act")
+            burger3.classList.remove("act")
+            nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
        footer.onclick=function(){
@@ -212,6 +312,11 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         } else {
             section2.classList.remove("act")
             header.classList.remove("act")
@@ -220,29 +325,45 @@
             burger2.classList.remove("act")
             burger3.classList.remove("act")
             nav.classList.remove("act")
+             header_800.classList.remove("act")
+            burger_800.classList.remove("act")
+            burger1_800.classList.remove("act")
+            burger2_800.classList.remove("act")
+            burger3_800.classList.remove("act")
         }
        }
+
+
        section2.onclick=function(){
-        if (section2.classList.contains("act")){
+       if (section2.classList.contains("act")) {
             section2.classList.remove("act")
-            header_800.classList.remove("act")
+            header.classList.remove("act")
+            burger.classList.remove("act")
+            burger1.classList.remove("act")
+            burger2.classList.remove("act")
+            burger3.classList.remove("act")
+            nav.classList.remove("act")
+             header_800.classList.remove("act")
             burger_800.classList.remove("act")
             burger1_800.classList.remove("act")
             burger2_800.classList.remove("act")
             burger3_800.classList.remove("act")
-            nav.classList.remove("act")
-        }else{
+        } else {
             section2.classList.remove("act")
-            header_800.classList.remove("act")
+            header.classList.remove("act")
+            burger.classList.remove("act")
+            burger1.classList.remove("act")
+            burger2.classList.remove("act")
+            burger3.classList.remove("act")
+            nav.classList.remove("act")
+             header_800.classList.remove("act")
             burger_800.classList.remove("act")
             burger1_800.classList.remove("act")
             burger2_800.classList.remove("act")
             burger3_800.classList.remove("act")
-            nav.classList.remove("act")
         }
        }
-
-
+      
        
 
         
