@@ -2135,6 +2135,7 @@ align-items: center; */
 }
 
 @media(max-width: 500px) {
+    
     .section-5 .computer {
         display: none;
     }
@@ -2905,6 +2906,7 @@ align-items: center; */
         width: 100%;
         height: 3400px;
         background-color: #3f5d7a;
+        
         position: relative;
       }
       
@@ -2917,7 +2919,7 @@ align-items: center; */
         top: 0px;
         -webkit-transition: 1s;
         transition: 1s;
-        z-index: 99;
+        z-index: 5;
       }
       /*# sourceMappingURL=測試.css.map */
     .section-6 .menu-bar-phone.act{
